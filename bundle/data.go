@@ -1,6 +1,6 @@
 package bundle
 
-import "github.com/naturalselectionlabs/arweave-go/signature"
+import "github.com/naturalselectionlabs/RSS3-Arweave-bundle-parser/signature"
 
 const (
 	MaxTags          = 128

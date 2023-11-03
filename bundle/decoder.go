@@ -7,7 +7,7 @@ import (
 	"io"
 
 	"github.com/hamba/avro/v2"
-	"github.com/naturalselectionlabs/arweave-go/signature"
+	"github.com/naturalselectionlabs/RSS3-Arweave-bundle-parser/signature"
 	"github.com/samber/lo"
 )
 
@@ -187,12 +187,12 @@ func (d *Decoder) decodeDataItemOptionField(buffer []byte) (bool, error) {
 func (d *Decoder) decodeDataItemTags(dataItem *DataItem) error {
 	buffer := make([]byte, 8)
 
-	// Read number of tags
+	// Read the count, but discard it
 	if _, err := io.ReadFull(d.buffer, buffer); err != nil {
 		return err
 	}
 
-	// Read bytes of tags
+	// Read the size, but discard it
 	if _, err := io.ReadFull(d.buffer, buffer); err != nil {
 		return err
 	}
