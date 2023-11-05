@@ -1,4 +1,4 @@
-module github.com/naturalselectionlabs/RSS3-Arweave-bundle-parser
+module github.com/naturalselectionlabs/RSS3-Arweave-SDK
 
 go 1.21.3
 

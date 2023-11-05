@@ -7,7 +7,7 @@ import (
 	"io"
 
 	"github.com/hamba/avro/v2"
-	"github.com/naturalselectionlabs/RSS3-Arweave-bundle-parser/signature"
+	"github.com/naturalselectionlabs/RSS3-Arweave-SDK/signature"
 	"github.com/samber/lo"
 )
 

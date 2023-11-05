@@ -10,9 +10,15 @@
 </p>
 <!-- markdownlint-enable -->
 
-# RSS3 Arweave Bundle Parser
+# RSS3 Arweave SDK
 
-A high-performance and memory efficient Arweave bundle parser written in Go.
+A high-performance and memory efficient Arweave SDK written in Go.
+
+This is a work-in-progress, and is not intended for production use.
+
+## Parsing Bundle Transactions
+
+The SDK provides an efficient way to parse bundle tansactions without loading the entire transactions into the memory.
 
 ## License
 

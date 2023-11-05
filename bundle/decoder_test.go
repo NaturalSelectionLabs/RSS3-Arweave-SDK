@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/naturalselectionlabs/RSS3-Arweave-bundle-parser/bundle"
+	"github.com/naturalselectionlabs/RSS3-Arweave-SDK/bundle"
 	"github.com/stretchr/testify/require"
 )
 
